@@ -31,6 +31,7 @@ const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 12px 32px;
+  gap: 27px;
 `;
 
 const MarketingMessage = styled.span`
@@ -46,8 +47,6 @@ const HelpLink = styled.a`
   &:not(:focus-visible) {
     outline: none;
   }
-  padding-right: 27px;
-  padding-left: 27px;
 `;
 
 export default SuperHeader;
