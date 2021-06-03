@@ -26,10 +26,16 @@ const Wrapper = styled.div`
   font-size: 0.875rem;
   color: ${COLORS.gray[300]};
   background-color: ${COLORS.gray[900]};
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 32px;
 `;
 
 const MarketingMessage = styled.span`
   color: ${COLORS.white};
+  flex: 1;
 `;
 
 const HelpLink = styled.a`
@@ -40,6 +46,8 @@ const HelpLink = styled.a`
   &:not(:focus-visible) {
     outline: none;
   }
+  padding-right: 27px;
+  padding-left: 27px;
 `;
 
 export default SuperHeader;
